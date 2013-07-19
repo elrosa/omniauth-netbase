@@ -6,7 +6,7 @@ module OmniAuth
 
       option :name, "netbase"
       option :client_options, {
-          :site => "https://api.netbase.com/cb/insight-api/2",
+          :site => "https://api.netbase.com",
           :authorize_url => 'https://api.netbase.com/cb/oauth/authorize',
           :token_url => 'https://api.netbase.com/cb/oauth/token'
       }
@@ -26,7 +26,7 @@ module OmniAuth
       end
 
       def raw_info
-        @raw_info ||= access_token.get('/profile').parsed
+        @raw_info ||= access_token.get('/cb/insight-api/2/profile').parsed
       end
 
     end
