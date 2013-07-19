@@ -1,7 +1,2 @@
-require "omniauth/netbase/version"
-
-module Omniauth
-  module Netbase
-    # Your code goes here...
-  end
-end
+require 'omniauth/wordpress/version'
+require 'omniauth/strategies/netbase'
