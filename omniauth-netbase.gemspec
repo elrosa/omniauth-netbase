@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Omniauth::Netbase::VERSION
   spec.authors       = ["Magda Sikorska"]
   spec.email         = ["madzia.sikorska@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.summary       = 'Netbase strategy for OmniAuth.'
+  spec.description   = 'Netbase strategy for OmniAuth.'
   spec.homepage      = ""
   spec.license       = "MIT"
 
